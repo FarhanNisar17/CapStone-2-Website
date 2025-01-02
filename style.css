@@ -1,0 +1,41 @@
+.whole{
+    background-image: url('https://c8.alamy.com/comp/MP8EW5/funny-nerd-hacker-with-bitcoin-btc-mining-engineer-on-circuit-background-MP8EW5.jpg');
+    height: 500px;
+    background-position: top;
+  }
+
+  .mask{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: end;
+  }
+
+@media (max-width: 600px) {
+  .whole {
+    position: relative;
+    background-size:cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    
+  }
+
+  .mask{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: end;
+  }
+}

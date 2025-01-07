@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px;
   }
 
   footer{
@@ -28,10 +29,11 @@
   }
 
   .mask{
-    height: 400px;
+    height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:10px;
   }
 
   footer{
